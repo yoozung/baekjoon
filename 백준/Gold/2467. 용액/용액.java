@@ -28,7 +28,6 @@ public class Main {
         
         while (left < right) {
             int sum = nums[left] + nums[right];
-            
             if (Math.abs(sum) < Math.abs(closestSum)) {
                 closestSum = sum;
                 ansLeft = left;
